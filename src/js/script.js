@@ -28,7 +28,7 @@ const passwordInput = document.getElementById('passwordInput');
 const errorMessage = document.getElementById('errorMessage');
 const popup = document.getElementById('popup');
 const closePopup = document.getElementById('closePopup');
-const audio = new Audio('../src/sound/cinta_terakhir.mp3');
+const audio = new Audio('src/sound/cinta_terakhir.mp3');
 const correctPassword = "WdnFnj28*";
 
 let isPlaying = false;
