@@ -128,6 +128,6 @@ function handleFormSubmit(event) {
     const feedbackMessage = document.getElementById('feedbackMessage');
     feedbackMessage.classList.remove('hidden');
     feedbackMessage.innerHTML = `
-        Pesan tidak dapat dikirim karena <a href="https://app.netlify.com/" target="_blank" class="font-bold">Netlify </a> tidak mendukung <a href="https://php.net/" target="_blank" class="font-bold">PHP.</a> <a class="text-secondary">Sebagai alternatif, </a> <a href="mailto:Irfannurroja28@gmail.com?subject=From%20TailwinCSS%20Portofolio&body=Tulis%20Pesan%20Di%20Sini:%0A%0A%0A" class="text-primary underline font-bold">klik di sini </a> <a class="text-secondary">untuk mengirim email.</a>
+        Pesan tidak dapat dikirim karena <a href="https://app.netlify.com/" target="_blank" class="font-bold">Netlify </a> tidak mendukung <a href="https://php.net/" target="_blank" class="font-bold">PHP.</a> <a class="text-secondary">Sebagai alternatif, </a> <a href="mailto:Irfannurroja28@gmail.com?subject=From%20TailwindCSS%20Portofolio&body=Tulis%20Pesan%20Di%20Sini:%0A%0A%0A" class="text-primary underline font-bold">klik di sini </a> <a class="text-secondary">untuk mengirim email.</a>
     `;
 };
